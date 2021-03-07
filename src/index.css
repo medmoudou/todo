@@ -11,3 +11,69 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* 5786ff */
+
+.app{
+  max-width: 600px;
+  background-color: #5786ff;
+  max-height: 100%;
+  margin: 0 auto;
+}
+
+.header{
+  color: white;
+  text-align: center;
+  padding:15px;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.addcontainer{
+  margin-top: 25px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.inputtext{
+  padding: 5px;
+  font-size: 14px;
+  border: none;
+  border-radius: 8px;
+}
+.btn{
+  border: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  background-color: whitesmoke;
+}
+
+.container{
+  background-color: #fafafa;
+  border-radius: 50px 50px 0 0;
+  margin: -50px 20px;
+  padding-top: 20px;
+  height: 500px;
+}
+
+ul{
+  list-style:none;
+}
+
+.item{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  margin-right: 50px;
+  background-color: #ebebeb;
+  padding: 10px;
+  margin-bottom: 7px;
+  border-left: 4px solid #5786ff;
+}
+
+.removebtn{
+  background-color: rgb(240, 106, 106);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 14px;
+}
